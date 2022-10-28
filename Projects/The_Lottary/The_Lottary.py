@@ -22,7 +22,7 @@ Boder_line(5)
 def LeaveYourNumber(x):
     j = 3
     print('Phone Number')
-    phone_Number = int(input(f'Input your phone number: '))
+    phone_Number = int(input(f'Input your phone number, Begin With 254...: '))
     while j == 3: #phone_Number <= 999999999999
         phone_Number = int(input(f'confirm your number: '))
         if phone_Number > 999999999999:
