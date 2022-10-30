@@ -5,7 +5,7 @@ print('Hallo_World!\n')
 print('try this one\n')
 
 def Boder_line(x):
-    Lottary = random.randint(2, x)
+    Lottary = random.randint(2000, x)
     your_number = 0
     while your_number != Lottary:
         your_number = int(input(f'Write your winning number between 2 and {x}:'))
@@ -17,7 +17,7 @@ def Boder_line(x):
             print('Yay!!! You Won!')
             break
     return(Lottary)
-Boder_line(5)
+Boder_line(3000)
 
 def LeaveYourNumber(x):
     j = 3
